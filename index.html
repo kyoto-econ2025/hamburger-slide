@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ハンバーガーメニューとスライドショー</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <!-- ハンバーガーボタン -->
+    <div class="menu-btn" id="menuBtn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- PC時の通常ナビ -->
+    <nav>
+      <ul>
+        <li>ホーム</li>
+        <li>サービス</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </nav>
+
+    <!-- モバイル用全画面ナビ -->
+    <div class="nav-overlay" id="navOverlay">
+      <ul>
+        <li>ホーム</li>
+        <li>サービス</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- スライドショー -->
+  <div class="slideshow" id="slideshow">
+    <img src="img/1.jpg" class="active" alt="Slide 1">
+    <img src="img/2.jpg" alt="Slide 2">
+    <img src="img/3.jpg" alt="Slide 3">
+  </div>
+  <div class="controls">
+    <button id="prev">前へ</button>
+    <button id="next">次へ</button>
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

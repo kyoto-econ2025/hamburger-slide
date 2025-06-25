@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+header {
+  position: relative;
+  background: pink
+}
+
 /* ハンバーガー */
 .menu-btn {
   display: none;
